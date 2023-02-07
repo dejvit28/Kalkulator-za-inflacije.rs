@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inflation calculator</title>
+  <link rel="icon" type="img/logo" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="background-overlay">
+    								<div class="container1">
+  									  <div>   
+							    	   <ul class="lang">                
+ 										<div class="dropdown">
+                                         <button onclick="myFunction0()" class="dropbtn">Language</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                             <a href="index.html">Srpski</a>
+                                             <a href="mkd.html">Македонски</a>
+                                             <a href="eng.html">English</a>
+                                             <a href="de.html">Deutch</a>
+                                            </div>
+                                        </div>    </ul></div></div>                               
+
+
+		<h1>inflation calculator</h1>
+
+		<div class="container">
+			<h3>inflation rate: <input type="number" min="0.1" id="inflationRate"> %</h3> <br>
+			<h3>Calculate how much it will <input type="number" min="1" id="money"> € that is valid for
+				<input type="number" min="1" id="years"> years?</h3>
+
+			<button onclick="inflationCalculator()">Calculate</button>
+		</div>
+
+	</div>
+
+	<script src="scripteng.js"></script>
+</body>
+</html>
